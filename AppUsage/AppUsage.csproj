@@ -13,6 +13,11 @@
      <PackageReference Include="Seido.Utilities.SeedGenerator" Version="1.0.5" />
     -->
   </ItemGroup>
-
+  
+  <ItemGroup>
+      <Content Include="master-seeds.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+  </ItemGroup>
 
 </Project>
